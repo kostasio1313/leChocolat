@@ -8,6 +8,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!--Local css-->
     <link href="css/styles.css" rel="stylesheet">
     <title>Le Chocolat</title>
 </head>
@@ -15,24 +18,27 @@
 <body>
     <!--Navigation-->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top ">
-    
+
         <div class="container">
-       <!--logo-->
+            <!--logo-->
             <a class="navbar-brand" href="#">Le Chocolat</a>
-             <!--Sandwich button-->
+            <!--Sandwich button-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
 
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-         
-               </ul>
-               </div>            
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>
+                            About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span>
+                            Contact</a></li>
+
+                </ul>
+            </div>
         </div>
     </nav>
     <header class="jumbotron">
@@ -106,32 +112,39 @@
                         121, Clear Wave Road<br>
                         Clear Wave Road, Aloha<br>
                         HAWAII<br>
-                        Tel.: +987 6543 2100<br>
-                        Fax: +987 6543 2101<br>
-                        Email: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
+                        <i class="fa fa-phone fa-lg"></i>: +987 6543 2100 <br>
+                        <i class="fa fa-fax fa-lg"></i>: +987 6543 2101 <br>
+                        <i class="fa fa-envelope fa-lg"></i>:
+                        <a href="mailto: chocolat@nomail.net"> chocolat@nomail.net </a>
                     </address>
                 </div>
                 <!--Social links footer column-->
                 <div class="col col-sm-4 align-self-center">
                     <div style="text-align:center">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
+                            <i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                            <i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/">
+                            <i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:">
+                            <i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
 
             <!--Copyright paragraph-->
-           
-                <div class="row justify-content-center">
-                    <div class="col-auto">
-                        <p> &copy; Copyright 2018 Le Chocolat</p>
-                    </div>
+
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p> &copy; Copyright 2018 Le Chocolat</p>
                 </div>
             </div>
+        </div>
 
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
